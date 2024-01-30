@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+  font-family: 'Tu Fuente', sans-serif; /* Ajusta a la fuente de Factcil */
+  color: #333; /* Ajusta al color de texto principal de Factcil */
+}
+
+/* Estilos del chatbot */
+.chat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: auto;
+  background-color: #f9f9f9; /* Color de fondo */
+}
+
+.message {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.message.user {
+  background-color: #007bff; /* Color para los mensajes del usuario */
+  text-align: right;
+  color: white;
+}
+
+.message.chatbot {
+  background-color: #e9ecef; /* Color para los mensajes del chatbot */
+  text-align: left;
+}
+
+/* Estilos para el formulario */
+form {
+  margin-top: 20px;
+}
+
+form .form-control {
+  border-radius: 20px; /* Bordes redondeados para el campo de texto */
+}
+
+form .btn-primary {
+  border-radius: 20px; /* Bordes redondeados para el botón */
+  background-color: #007bff; /* Ajusta al color del botón de Factcil */
+  border-color: #007bff; /* Ajusta al color del borde del botón de Factcil */
+}
